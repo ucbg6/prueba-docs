@@ -1,0 +1,7 @@
+site_name: 'prueba-docs'
+
+nav:
+ - Home: index.md
+
+plugins:
+ - techdocs-core
