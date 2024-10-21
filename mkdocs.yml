@@ -1,6 +1,6 @@
 site_name: 'prueba-docs'
 repo_url: https://github.com/ucbg6/prueba-docs/
-edit_url: '#root'
+edit_url: blob/main
 
 nav:
  - Pagina principal: README.md
