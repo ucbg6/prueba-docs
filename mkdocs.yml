@@ -9,3 +9,4 @@ nav:
 
 plugins:
  - techdocs-core
+ - same-dir
