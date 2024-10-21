@@ -1,7 +1,11 @@
 site_name: 'prueba-docs'
+repo_url: https://github.com/ucbg6/prueba-docs/
+edit_url: '#root'
 
 nav:
- - Home: index.md
+ - Pagina principal: README.md
+ - Backstage: docs/index.md
+ - Otra pagina: docs/page2.md
 
 plugins:
  - techdocs-core
