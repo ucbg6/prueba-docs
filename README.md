@@ -5,6 +5,7 @@ Esta es la página principal de documentación.
 
 
 ### Diagrama PlantUML
+Diagrama 1:
 ```puml
 @startuml
 title Login Sequence
@@ -14,6 +15,7 @@ title Login Sequence
 @enduml
 ```
 
+Diagrama 2:
 ```puml
 @startuml sign_in_sequence  
   
