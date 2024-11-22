@@ -48,6 +48,10 @@ MySql --> (Use)
 @enduml
 ```
 
+### Diagrama PlantUML (importado)
+```plantuml format="svg" source="docs/diagrama1.puml"
+```
+
 ### Configuración de MkDocs (mkdocs.yml)
 ```
   site_name: 'prueba-docs'
