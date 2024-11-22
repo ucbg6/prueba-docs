@@ -6,13 +6,19 @@ Esta es la página principal de documentación.
 
 ### Diagrama PlantUML
 Diagrama 1:
-```puml
+
+```plantuml format="svg"
 @startuml
 title Login Sequence
     ComponentA->ComponentB: Login Request
     note right of ComponentB: ComponentB logs message
     ComponentB->ComponentA: Login Response
 @enduml
+```
+
+```plantuml id="myDiag" format="svg"
+  Goofy ->  MickeyMouse: calls
+  Goofy <-- MickeyMouse: responds
 ```
 
 Diagrama 2:
@@ -29,8 +35,21 @@ User -> authenticate: {"email": email, "password": password}
 @enduml
 ```
 
+### Diagrama PlantUML (avanzado)
+```plantuml format="svg"
+@startuml
+User << Human >>
+:Main Database: as MySql << Application >>
+(Start) << One Shot >>
+(Use the application) as (Use) << Main >>
+User -> (Start)
+User --> (Use)
+MySql --> (Use)
+@enduml
+```
+
 ### Configuración de MkDocs (mkdocs.yml)
-<pre>
+```
   site_name: 'prueba-docs'
   repo_url: https://github.com/ucbg6/prueba-docs/
   
@@ -51,7 +70,7 @@ User -> authenticate: {"email": email, "password": password}
 
   # pip3 install mkdocs-same-dir
   
-</pre>
+```
 
 
 
