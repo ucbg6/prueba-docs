@@ -3,6 +3,30 @@
 
 Esta es la página principal de documentación.
 
+
+### Diagrama PlantUML
+```plantuml
+@startuml
+title Login Sequence
+    ComponentA->ComponentB: Login Request
+    note right of ComponentB: ComponentB logs message
+    ComponentB->ComponentA: Login Response
+@enduml
+```
+
+```puml
+@startuml sign_in_sequence  
+  
+title "Sign In Sequence Diagram"  
+  
+actor User  
+participant "@action authenticate" as authenticate
+entity User as UserModel  
+  
+User -> authenticate: {"email": email, "password": password}
+@enduml
+```
+
 ### Configuración de MkDocs (mkdocs.yml)
 <pre>
   site_name: 'prueba-docs'
@@ -26,4 +50,6 @@ Esta es la página principal de documentación.
   # pip3 install mkdocs-same-dir
   
 </pre>
+
+
 
