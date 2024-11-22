@@ -22,7 +22,7 @@ title Login Sequence
 ```
 
 Diagrama 2:
-```puml
+```plantuml
 @startuml sign_in_sequence  
   
 title "Sign In Sequence Diagram"  
