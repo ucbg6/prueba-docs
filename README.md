@@ -5,7 +5,7 @@ Esta es la página principal de documentación.
 
 
 ### Diagrama PlantUML
-```plantuml
+```puml
 @startuml
 title Login Sequence
     ComponentA->ComponentB: Login Request
