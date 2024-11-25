@@ -21,7 +21,8 @@ title Login Sequence
   Goofy <-- MickeyMouse: responds
 ```
 
-Diagrama 2:
+#### Diagrama 2:
+
 ```plantuml
 @startuml sign_in_sequence  
   
